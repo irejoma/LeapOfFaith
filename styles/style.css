@@ -1,0 +1,10 @@
+.primary-color {
+    color: #2ed1ca;
+}
+
+.gradient-text {
+    background: linear-gradient(to top, #2ed1ca, #000000);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block; /* Fix for Firefox rendering */
+  }
